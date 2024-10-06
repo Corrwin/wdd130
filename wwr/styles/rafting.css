@@ -5,10 +5,8 @@
     --accent2-color: #162521;
     --misc-color: #9EEFE5;
 
-    background-color: var(--primary-color);
-    
+    max-width: 75%;
 }
-
 
 
 h1, h2, h3 {
@@ -33,4 +31,33 @@ p {
 
 .sociallinks a{
     text-decoration: none;
+}
+
+/* Hero styling */
+.hero img{
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+.hero h1    {
+    position: absolute;
+    text-align: center;
+}
+.hero article{
+    position: absolute;
+    display: block;
+}
+.hero article img {
+    float: right;
+    height: 10%; 
+    width: 10%;
+}
+
+
+
+
+.sociallinks img {
+    height: 50px;
+    width: 50px;
 }
