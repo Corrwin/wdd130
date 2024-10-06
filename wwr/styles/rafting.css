@@ -4,6 +4,8 @@
     --accent1-color: #C0E0DE;
     --accent2-color: #162521;
     --misc-color: #9EEFE5;
+
+    background-color: var(--primary-color);
     
 }
 
@@ -14,6 +16,7 @@ h1, h2, h3 {
   font-optical-sizing: auto;
   font-weight: 608;
   font-style: normal;
+  color: var(--accent2-color);
 }
 
 
@@ -25,4 +28,5 @@ p {
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+    color: var(--accent2-color);
 }
