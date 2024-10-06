@@ -46,11 +46,12 @@ p {
 }
 .hero article{
     position: absolute;
-    top: 200px;
+    top: 40%;
     left: 150px;
     display: block;
     text-align: center;
     width: 80%;
+    background-color: #16252154; /* tried to find a way to do it with the variable and hex. couldn;t. */
 }
 .hero article img {
     float: right;
