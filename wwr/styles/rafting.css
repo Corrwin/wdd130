@@ -30,3 +30,7 @@ p {
     "slnt" 0;
     color: var(--accent2-color);
 }
+
+.sociallinks a{
+    text-decoration: none;
+}
