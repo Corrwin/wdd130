@@ -26,6 +26,8 @@ p {
   font-variation-settings:
     "slnt" 0;
     color: var(--accent1-color);
+    max-width: 60%;
+    text-align: center;
 }
 
 .sociallinks a{
@@ -49,7 +51,6 @@ p {
     top: 40%;
     left: 150px;
     display: block;
-    text-align: center;
     width: 80%;
     background-color: #16252154; /* tried to find a way to do it with the variable and hex. couldn;t. */
 }
