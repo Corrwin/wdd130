@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #4F7CAC;
+    --secondary-color: #3C474B;
+    --accent1-color: #C0E0DE;
+    --accent2-color: #162521;
+    --misc-color: #9EEFE5;
+    
+}
+
+
+
+h1, h2, h3 {
+  font-family: "SUSE", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 608;
+  font-style: normal;
+}
+
+
+
+p {
+  font-family: "Afacad Flux", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
