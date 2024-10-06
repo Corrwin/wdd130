@@ -12,7 +12,6 @@
 
 h1, h2, h3 {
   font-family: "SUSE", system-ui;
-  font-optical-sizing: auto;
   font-weight: 608;
   font-style: normal;
   color: var(--accent1-color);
@@ -22,7 +21,6 @@ h1, h2, h3 {
 
 p {
   font-family: "Afacad Flux", system-ui;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
