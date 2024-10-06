@@ -5,7 +5,8 @@
     --accent2-color: #162521;
     --misc-color: #9EEFE5;
 
-    max-width: 75%;
+    
+    background-color: var(--primary-color);
 }
 
 
@@ -14,7 +15,7 @@ h1, h2, h3 {
   font-optical-sizing: auto;
   font-weight: 608;
   font-style: normal;
-  color: var(--accent2-color);
+  color: var(--accent1-color);
 }
 
 
@@ -26,7 +27,7 @@ p {
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 .sociallinks a{
@@ -36,17 +37,22 @@ p {
 /* Hero styling */
 .hero img{
     display: block;
-    width: 60%;
+    width: 100%;   /* I do not see a way on PC to get a width of 100% without any kind of pixelating. Also, there's NO */
     height: auto;
 }
 
 .hero h1    {
     position: absolute;
     text-align: center;
+    left: 40%;
 }
 .hero article{
     position: absolute;
+    top: 200px;
+    left: 150px;
     display: block;
+    text-align: center;
+    width: 80%;
 }
 .hero article img {
     float: right;
