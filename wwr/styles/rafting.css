@@ -6,16 +6,17 @@
     --misc-color: #9EEFE5;
 
     
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, nav {
   font-family: "SUSE", system-ui;
   font-weight: 608;
   font-style: normal;
   color: var(--accent1-color);
 }
+
 
 
 
@@ -66,4 +67,29 @@ p {
 .sociallinks img {
     height: 50px;
     width: 50px;
+}
+
+/* TOP BOX */
+.top-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+    justify-content: center;
+    background-color: var(--misc-color);
+}
+
+#top-box-logo {
+    grid-column: 1, 2;
+    grid-row: 1;
+    /* justify-content: center;   WHY NOT WORKING */
+}
+
+#top-box-nav {
+    grid-column: 2, 3;
+    grid-row: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
 }
