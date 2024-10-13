@@ -18,7 +18,7 @@ h1, h2, h3, nav, figcaption {
 }
 
 figure img{
-    width: 15%;
+    width: 100%;
     height: auto;
 }
 
@@ -144,9 +144,60 @@ p {
     height: 250px;
     width: auto;
 }
+/* ADVENTURE BOX */
+
+#adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 20%, 80%;
+
+    background-color: var(--secondary-color);
+}
+
+#adventure-title {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+}
+
+#adventure-fig1 {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+#adventure-fig2 {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+#adventure-fig3 {
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+#adventure-fig4 {
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+#adventure-fig5 {
+    grid-column: 5;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
 
 
 
+/* END BOX */
 #end-box {
     display: grid;
     grid-template-columns: 20%, 60%, 20%;
