@@ -149,7 +149,7 @@ p {
 #adventure {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 20%, 80%;
+    grid-template-rows: 20% 80%;
 
     background-color: var(--secondary-color);
 }
@@ -200,7 +200,7 @@ p {
 /* END BOX */
 #end-box {
     display: grid;
-    grid-template-columns: 20%, 60%, 20%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows: 80px;
 }
 
@@ -209,7 +209,7 @@ p {
     grid-row: 1;
 
     justify-self: center;
-    align-self: top;
+    align-self: start;
 }
 
 #sociallinks {
