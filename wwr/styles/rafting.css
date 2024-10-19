@@ -217,3 +217,27 @@ p {
     justify-self: flex-end;
     align-self: flex-end;
 }
+
+
+                                            /* Contact page start */
+
+                                            /* Company Info  */
+#company-info {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 50px 300px;
+    background-color: var(--secondary-color);
+}
+
+#company-info-head {
+ 
+}
+
+#company-info-contact {
+
+}
+
+#map {
+
+}
+
