@@ -10,7 +10,7 @@
 }
 
 
-h1, h2, h3, nav{
+h1, h2, h3, nav, form{
   font-family: "SUSE", system-ui;
   font-weight: 608;
   font-style: normal;
@@ -22,7 +22,12 @@ figure img{
     height: auto;
 }
 
-
+button {font-family: "SUSE", system-ui;
+    font-weight: 608;
+    font-style: normal;
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+}   
 
 iframe {
     height: 200px;
@@ -317,20 +322,22 @@ p {
 }
 
 
-#employee-block.figcaption {
 
+form {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
-
-
 #questionaire {
-
+    display: block;
+    width: 90%;
+    margin: auto;
 }
 
 .questionaire-item-box1 {
-
+ /* These have been intentionally left empty for easy changes later. */
 }
 
 .questionaire-item-box2 {
-
+ /* These have been intentionally left empty for easy changes later. */
 }
