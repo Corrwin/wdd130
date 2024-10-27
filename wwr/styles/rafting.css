@@ -341,3 +341,72 @@ form {
 .questionaire-item-box2 {
  /* These have been intentionally left empty for easy changes later. */
 }
+
+
+
+
+                                                /* TRIPS PAGE */
+#action-call-link {
+    display: block;
+ font-size: 200%;
+ text-align: center;
+}
+
+
+
+
+
+#trip-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 250px 250px 250px;
+}
+
+
+#blue-canyon-img{
+ grid-column: 1;
+ grid-row: 1;
+ height: 220px;
+ width: auto;
+ justify-self: right;
+ border-right: 3px solid;
+ border-color: var(--primary-color);
+
+}
+
+#blue-canyon-cap{
+ grid-column: 2 3;
+ grid-row: 1;
+
+}
+
+#old-man-rapids-img{
+    grid-column: 2;
+    grid-row: 2;
+    height: 220px;
+    width: auto;
+    justify-self: right;
+    border-right: 3px solid;
+ border-color: var(--primary-color);
+}
+
+#old-man-rapids-cap{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#bonniville-img{
+    grid-column: 3;
+    grid-row: 3;
+    height: 220px;
+    width: auto;
+    justify-self: left;
+    border-left: 3px solid;
+ border-color: var(--primary-color);
+}
+
+#bonniville-cap{
+    grid-column: 2;
+    grid-row: 3;
+}
+
