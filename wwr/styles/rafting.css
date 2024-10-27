@@ -375,7 +375,7 @@ form {
 }
 
 #blue-canyon-cap{
- grid-column: 2 3;
+ grid-column: 2;
  grid-row: 1;
 
 }
@@ -409,4 +409,39 @@ form {
     grid-column: 2;
     grid-row: 3;
 }
+
+/* TABLE CSS */
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+  border: 2px solid var(--secondary-color);
+  font-family: "SUSE", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  thead {
+    background-color: var(--accent1-color);
+  }
+
+  th,
+  td {
+    border: 1px solid var(--secondary-color);
+    padding: 8px 10px;
+  }
+
+  td:last-of-type {
+    text-align: center;
+  }
+
+  #table-div {
+    background-color: var(--accent1-color);
+  }
 
